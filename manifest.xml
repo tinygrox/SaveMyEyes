@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>tinygrox.PSMod.SaveMyEyes</ID>
+  <Name>Save My Eyes</Name>
+  <Author>tinygrox</Author>
+  <ModVersion>1.0</ModVersion>
+  <Description>The chem and water scanner panels shrink the text when a sample contains a large number of components, making it hard to read. This mod prevents the text from shrinking and adds a scrollbar, so you can read the entire list at its normal font size.</Description>
+  <GameVersions>
+    <Version>0.46</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>SaveMyEyes.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</Manifest>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SaveMyEyes</AssemblyName>
+    <RootNamespace>SaveMyEyes</RootNamespace>
+    <OutputPath>$(ModsPath)/SaveMyEyes</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\UnityEngine.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\0Harmony.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\UnityEngine.UI.dll" Private="false" />
+    <Reference Include="$(GamePath)\Probably Stolen_Data\Managed\UnityEngine.UIModule.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="manifest.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
